@@ -31,7 +31,7 @@ allColor文件夹中，P（或Q属于输入图片的名字）。其他图的名�
 \
 原图\
 ![image](https://github.com/taoshiqian/image_HDR_MATLAB/blob/master/allColor/Q.jpg)\
-HSV空间下，景色部分（树、海岸……）得到“暗光区域增亮”的加强，人脸、锁骨得到了“过曝光区域降光”的美化\
+HSV空间下，景色部分（树、海岸……）得到“暗光区域增亮”的加强，人脸、锁骨、衣服白色字体等部分得到了“过曝光区域降光”的美化\
 ![image](https://github.com/taoshiqian/image_HDR_MATLAB/blob/master/allColor/Q_HSV_Light_Dark.jpg)\
 更多颜色空间下的效果请看allColor文件夹
 
