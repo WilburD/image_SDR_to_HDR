@@ -2,7 +2,7 @@
 % 单张图测试，把file修改成输入图像的路径，并修改文件名后缀，运行，即可得到增强后的输出（和输入图片同一路径）
 tic;
 addpath ours;
-file = 'D:\MATLAB\HDR\OpenCE\RGB_Light\ZZX';%修改输入图片的路径
+file = 'person\input';%修改输入图片的路径
 I = imread( [file,'.jpg'] );%修改输入图片的后缀
 %J = BIMEF(I); 
 %{

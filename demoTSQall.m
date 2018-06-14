@@ -8,7 +8,7 @@ addpath colorspace;
 cs = {'YCbCr','JPEG-YCbCr','YDbDr','YPbPr','YUV','YIQ','HSV','HSL','HSI','Lab','Luv','LCH',};% 'XYZ','CAT02 LMS','RGB'
 idx= {  1,        1,          1,     1,     1,    1,     3,    3,    3,    1,    1,    1,  };%   0   ,    0   ,    0
 
-file = 'D:\MATLAB\HDR\OpenCE\allColor\Q';%修改输入图片的路径
+file = 'allColor\Q';%修改输入图片的路径
 I = imread( [file,'.jpg'] ); %修改输入图片的后缀
 
 
