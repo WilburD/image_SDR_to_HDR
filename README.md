@@ -1,4 +1,4 @@
-# image_HDR_MATLAB
+# image_SDR-to-HDR
 图像HDR，主要用于暗光照的增强，MATLAB实现(主要参考北大学者的论文与开源工程)\
 \
 北大学者github：https://github.com/baidut \
