@@ -9,7 +9,8 @@ A Bio-Inspired Multi-Exposure Fusion Framework for Low-light Image Enhancement\
 A New Image Contrast Enhancement Algorithm using Exposure Fusion Framework\
 A New Low-Light Image Enhancement Algorithm using Camera Response Model\
 \
-创新点：只对缺失光照的地方进行补光增强，而对光照充足的区域影响较小\
+创新点：只对缺失光照的地方进行补光增强，而其他光照良好的地方不会增强，从而使得整张图更清晰\
+有待优化之处（个人拙见）：原方法处理了低光照区域和光照良好区域，但过曝光的区域仍然不清晰，还可以对过曝光区域进行降光处理\
 \
 需要环境:MATLAB\
 使用方法：在demoTSQ.m中修改输入图像路径即可，增强图会展示出来，并且在输入图像的路径下会生成 文件名_out.jpg文件\
